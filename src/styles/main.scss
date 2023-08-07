@@ -1,7 +1,17 @@
-@import "utils";
-@import "fonts";
-@import "typography";
+@import "./utils/mixin";
+@import "./utils/variables";
 
-body {
-  background: $c-gray;
-}
+@import "blocks/header";
+@import "blocks/icon";
+@import "blocks/menu";
+@import "blocks/nav";
+@import "blocks/page";
+@import "blocks/top-bar";
+@import "blocks/section-title";
+@import "blocks/main";
+@import "blocks/products";
+@import "blocks/recommended";
+@import "blocks/timeless";
+@import "blocks/categories";
+@import "blocks/contact-us";
+@import "blocks/footer";
